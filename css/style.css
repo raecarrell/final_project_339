@@ -1,0 +1,58 @@
+html{
+    overflow-x: hidden;
+}
+head,main{
+    margin-left: 5%;
+    margin-right: 30%;
+}
+div{
+    display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 30px
+}
+#image1{
+    width: 150px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+#image2{
+    width: 150px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#image3{
+    width: 150px;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+#image4{
+    width: 150px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+#image5{
+    width: 150px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+#image6{
+    width: 150px;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+#image7{
+    width: 150px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+#image8{
+    width: 150px;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+#image9{
+    width: 150px;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
