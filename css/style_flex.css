@@ -1,8 +1,13 @@
 .navigation{
     display: inline-flex;
-    width: 19%;
+    width: 24%;
     flex-direction: row;
     list-style: none;
     justify-content: space-between;
     flex-wrap: nowrap;
+    font-size: 30px;
 }
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:active { text-decoration: underline; }
