@@ -93,8 +93,21 @@ body{
     text-align: center;
 }
 
-footer p{
-    color: #FABD00
+main div img{
+    margin: 9px;
+}
+.flag-div{
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 7px;
+    border: white solid 10px;  
+    color:white;
+}
+footer{
+    background-color: #FABD00;
+    color: #6C0E11;
+    margin: 7px;
+    padding-left: 10px;
 }
 
 @media (min-width: 768px){
