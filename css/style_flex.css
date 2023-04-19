@@ -24,6 +24,11 @@ nav{
     display: flex;
     align-items: center;
 }
-#cur_page{
-    border: solid 5px white;
+#cur_page a{
+    padding-bottom: 4px;
+    padding-top: 4px;
+    color:navy;
+    background-color: white;
+    border: solid 3px white;
+    border-radius: 12px;
 }
