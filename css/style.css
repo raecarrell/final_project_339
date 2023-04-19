@@ -5,6 +5,7 @@ h1{
     font-size: 250%;
     font-family: Courier, 'Courier New';
     color: #FABD00;
+    margin: 15px;
 }
 head,main{
     margin-left: 3%;
@@ -54,6 +55,7 @@ nav{
     background-color: #FABD00;
     border: solid 3px #FABD00;
     border-radius: 12px;
+    text-decoration: underline;
 }
 
 body{
@@ -114,51 +116,24 @@ body{
 #image9{
     grid-row: 10/11;
 }
-
-footer p{
-    color: #FABD00
+main div img{
+    margin: 9px;
 }
-
-main div{
-    border: white solid 10px;    
+main div img{
+    margin: 9px;
 }
-
-@media (min-width: 768px){
-    .gallery{
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    nav.links{
-        justify-content: space-evenly;
-    }
-
-    .gallery figure:nth-child(2n) img,
-    .gallery figure:nth-child(2n) figcaption{
-        order: 2;
-    }
-
-    .gallery figure:nth-child(2n+1) img,
-    .gallery figure:nth-child(2n+1) figcaption{
-        order: 1;
-    }
+.flag-div{
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 7px;
+    border: white solid 10px;  
+    color:white;
 }
-
-@media (min-width: 1024px){
-    .gallery{
-        grid-template-columns: repeat(3, 1fr)
-    }
-
-    nav.links{
-        justify-content: space-evenly;
-    }
-
-    .gallery figure img,
-    .gallery figure figcaption{
-        order: unset;
-    }
-}
-main div{
-    border: white solid 10px;    
+footer{
+    background-color: #FABD00;
+    color: black;
+    margin: 7px;
+    padding-left: 10px;
 }
 
 @media (min-width: 768px){
