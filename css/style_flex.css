@@ -1,6 +1,6 @@
 nav{
     width: 100%;
-    background-color: #AD1519;
+    background-color: #6C0E11;
     height: 100%;
     display: flex;
     justify-content: flex-end;
@@ -17,7 +17,7 @@ nav{
     background-color: #FABD00;
   }
 .nav_item a:hover{
-    color: #AD1519;
+    color: #6C0E11;
     text-decoration: underline;
   }
 .nav_links{
@@ -27,7 +27,7 @@ nav{
 #cur_page a{
     padding-bottom: 4px;
     padding-top: 4px;
-    color:#AD1519;
+    color:#6C0E11;
     background-color: #FABD00;
     border: solid 3px #FABD00;
     border-radius: 12px;
