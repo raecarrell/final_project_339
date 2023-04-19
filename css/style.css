@@ -53,6 +53,7 @@ nav{
     background-color: #FABD00;
     border: solid 3px #FABD00;
     border-radius: 12px;
+    text-decoration: underline;
 }
 
 body{
@@ -114,9 +115,8 @@ body{
 #image9{
     grid-row: 10/11;
 }
-
-footer p{
-    color: #FABD00
+main div img{
+    margin: 9px;
 }
 
 
