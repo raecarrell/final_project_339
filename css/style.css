@@ -5,6 +5,17 @@ head,main{
     margin-left: 5%;
     margin-right: 30%;
 }
+a.skip{
+    position: absolute;
+    top: -1000px;
+    left: 10px;
+    color: #fff;
+    background-color: navy;
+}
+a.skip:focus,
+a.skip:active{
+    top: 10px;
+}
 div{
     display:grid;
 	grid-template-columns: 1fr 1fr 1fr;
