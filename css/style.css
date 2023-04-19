@@ -6,8 +6,7 @@ h1{
     font-size: 250%;
     font-family: Courier, 'Courier New';
     color: #FABD00;
-    text-align: center;
-    
+    margin: 15px;
 }
 head,main{
     margin-left: 3%;
@@ -25,15 +24,17 @@ a.skip:focus,a.skip:active{
 }
 
 nav{
-    display: flex;
+    width: 100%;
     background-color: #6C0E11;
     justify-content: center;
     padding: 5px 0;
 }
 .nav_item a {
-    padding: 8px 10px;
-    font-size: 90%;
+    display: flex;
+    padding: 10px 15px;
+    text-decoration: none;
     color: #FABD00;
+    font-size: 100%;
   }
 .nav_links{
     display: flex;
@@ -47,7 +48,10 @@ nav{
     color: #6C0E11;
     text-decoration: underline;
   }
-
+.nav_links{
+    display: flex;
+    align-items: center;
+}
 #cur_page a{
     padding-bottom: 4px;
     padding-top: 4px;
@@ -94,12 +98,11 @@ footer p{
 
 @media (min-width: 768px){
     .gallery{
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    nav{
-        justify-content: space-around;
-        padding: 10px 0;
+    nav.links{
+        justify-content: space-evenly;
     }
 
     .nav_links{
@@ -120,17 +123,9 @@ footer p{
         order: 2;
     }
 
+    .gallery figure:nth-child(2n+1) img,
     .gallery figure:nth-child(2n+1) figcaption{
         order: 1;
-    }
-
-    .gallery figcaption{
-        border-top: #FABD00 3px solid;
-        padding-top: 3px;
-    }
-
-    h1{
-        text-align: justify;
     }
 }
 
