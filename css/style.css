@@ -8,7 +8,7 @@ h1{
 }
 head,main{
     margin-left: 3%;
-    margin-right: 30%;
+    margin-right: 12%;
 }
 a.skip{
     position: absolute;
@@ -117,6 +117,48 @@ body{
 
 footer p{
     color: #FABD00
+}
+
+main div{
+    border: white solid 10px;    
+}
+
+@media (min-width: 768px){
+    .gallery{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    nav.links{
+        justify-content: space-evenly;
+    }
+
+    .gallery figure:nth-child(2n) img,
+    .gallery figure:nth-child(2n) figcaption{
+        order: 2;
+    }
+
+    .gallery figure:nth-child(2n+1) img,
+    .gallery figure:nth-child(2n+1) figcaption{
+        order: 1;
+    }
+}
+
+@media (min-width: 1024px){
+    .gallery{
+        grid-template-columns: repeat(3, 1fr)
+    }
+
+    nav.links{
+        justify-content: space-evenly;
+    }
+
+    .gallery figure img,
+    .gallery figure figcaption{
+        order: unset;
+    }
+}
+main div{
+    border: white solid 10px;    
 }
 
 @media (min-width: 768px){
