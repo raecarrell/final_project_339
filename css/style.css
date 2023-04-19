@@ -4,7 +4,7 @@ html{
 h1{
     font-size: 250%;
     font-family: Courier, 'Courier New';
-    border: dashed 4px white;   
+    color: #FABD00;
 }
 head,main{
     margin-left: 3%;
@@ -14,72 +14,75 @@ a.skip{
     position: absolute;
     top: -1000px;
     left: 10px;
-    color: #fff;
-    background-color: navy;
+    color: #FABD00;
+    background-color: #AD1519;
 }
 a.skip:focus,a.skip:active{
     top: 10px;
 }
+body{
+    background-color: black;
+}
 div{
     display:grid;
-	grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 30px;
+	grid-template-columns: 1fr;
+    grid-auto-rows: auot;
+    grid-gap: 10px;
     align-items: center;
 }
 #image1{
     width: 100%;
     max-height: 100%;
-    grid-column: 1/2;
     grid-row: 1/2;
+    border: #FABD00 3px solid;
 }
 #image2{
     width: 100%;
     max-height: 100%;
-    grid-column: 2/3;
-    grid-row: 1/2;
+    grid-row: 2/3;
+    border: #FABD00 3px solid;
 }
 #image3{
     width: 100%;
     max-height: 100%;
-    grid-column: 3/4;
-    grid-row: 1/2;
+    grid-row: 3/4;
+    border: #FABD00 3px solid;
 }
 #image4{
     width: 100%;
     max-height: 100%;
-    grid-column: 1/2;
-    grid-row: 2/3;
+    grid-row: 4/5;
+    border: #FABD00 3px solid;
 }
 #image5{
     width: 100%;
     max-height: 100%;
-    grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 5/6;
+    border: #FABD00 3px solid;
 }
 #image6{
     width: 100%;
     max-height: 100%;
-    grid-column: 3/4;
-    grid-row: 2/3;
+    grid-row: 6/7;
+    border: #FABD00 3px solid;
 }
 #image7{
     width: 100%;
     max-height: 100%;
-    grid-column: 1/2;
-    grid-row: 3/4;
+    grid-row: 7/8;
+    border: #FABD00 3px solid;
 }
 #image8{
     width: 100%;
     max-height: 100%;
-    grid-column: 2/3;
-    grid-row: 3/4;
+    grid-row: 9/10;
+    border: #FABD00 3px solid;
 }
 #image9{
     width: 100%;
     max-height: 100%;
-    grid-column: 3/4;
-    grid-row: 3/4;
+    grid-row: 10/11;
+    border: #FABD00 3px solid;
 }
 footer p{
     color: #FABD00
